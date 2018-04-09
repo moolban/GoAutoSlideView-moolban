@@ -96,5 +96,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (UIView *)viewAtPage:(NSInteger)page;
 
+- (void)onTimerFired;
+- (void)startAutoScroll;
+- (void)stopAutoScroll;
 NS_ASSUME_NONNULL_END
 @end

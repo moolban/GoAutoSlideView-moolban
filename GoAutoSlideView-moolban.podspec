@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "GoAutoSlideView"
-  s.version      = "1.0"
+  s.name         = "GoAutoSlideView-moolban"
+  s.version      = "1.0.1"
   s.summary      = "GoAutoSlideView extends UIScrollView by featuring infinitely and automatically slide."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 GoAutoSlideView which is well documented has neat APIs to implement infinite and automatically slide.
                    DESC
 
-  s.homepage     = "https://github.com/zjmdp/GoAutoSlideView"
+  s.homepage     = "https://github.com/rws08/GoAutoSlideView-moolban"
   #s.screenshots  = "https://github.com/zjmdp/GoAutoSlideView/blob/master/screenshot/screenshot.gif"
 
 
@@ -73,7 +73,7 @@ GoAutoSlideView which is well documented has neat APIs to implement infinite and
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/zjmdp/GoAutoSlideView.git", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/rws08/GoAutoSlideView-moolban.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
