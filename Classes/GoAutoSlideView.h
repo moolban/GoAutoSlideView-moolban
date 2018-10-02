@@ -95,6 +95,8 @@ NS_ASSUME_NONNULL_BEGIN
  * @return The view of the specified page
  */
 - (UIView *)viewAtPage:(NSInteger)page;
+- (void)goCurrentPage:(BOOL)animated;
+- (void)goPage:(NSInteger)page animated:(BOOL)animated;
 
 - (void)onTimerFired;
 - (void)startAutoScroll;

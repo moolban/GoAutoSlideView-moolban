@@ -248,4 +248,17 @@
     }];
     return pageView;
 }
+
+- (void)goCurrentPage:(BOOL)animated {
+    NSInteger page = (self.scrollView.contentOffset.x/ CGRectGetWidth(self.bounds));
+    [self goPage:page animated:animated];
+}
+
+- (void)goPage:(NSInteger)page animated:(BOOL)animated{
+    [self.scrollView setContentOffset:CGPointMake(CGRectGetWidth(self.bounds)*page, self.scrollView.contentOffset.y) animated:animated];
+    if (self.pageControl != nil) {
+        [self.pageControl setCurrentPage:page];
+    }
+}
+
 @end
