@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 GoAutoSlideView which is well documented has neat APIs to implement infinite and automatically slide.
                    DESC
 
-  s.homepage     = "https://github.com/rws08/GoAutoSlideView-moolban"
+  s.homepage     = "https://github.com/moolban/GoAutoSlideView-moolban"
   #s.screenshots  = "https://github.com/zjmdp/GoAutoSlideView/blob/master/screenshot/screenshot.gif"
 
 
@@ -73,7 +73,7 @@ GoAutoSlideView which is well documented has neat APIs to implement infinite and
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/rws08/GoAutoSlideView-moolban.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/moolban/GoAutoSlideView-moolban.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
